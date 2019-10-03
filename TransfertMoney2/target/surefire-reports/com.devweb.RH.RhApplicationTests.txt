@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: com.devweb.RH.RhApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 5.199 s <<< FAILURE! - in com.devweb.RH.RhApplicationTests
+contextLoads(com.devweb.RH.RhApplicationTests)  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'ajoutuserController': Unsatisfied dependency expressed through field 'ajoutuserRepository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'ajoutuserRepository': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Not a managed type: class com.devweb.RH.model.Ajoutuser
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'ajoutuserRepository': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Not a managed type: class com.devweb.RH.model.Ajoutuser
+Caused by: java.lang.IllegalArgumentException: Not a managed type: class com.devweb.RH.model.Ajoutuser
+
