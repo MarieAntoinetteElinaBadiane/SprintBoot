@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.devweb.rh.RhApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.469 s - in com.devweb.rh.RhApplicationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 8.434 s - in com.devweb.rh.RhApplicationTests
